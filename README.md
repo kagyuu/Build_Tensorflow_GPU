@@ -5,7 +5,7 @@ Build the Tensorflow with GPU Support from the source.
 
 I bought a new computing machine that has RTX2070 GPU in Jan 2019.
 But the RTX20x0 series don't run on current tensorflow_gpu python
-package becase it was builded for CUDA9 and RTX20x0 only 
+package because it was builded for CUDA9 and RTX20x0 only 
 supports up-to-date CUDA10. So I have to build tensorflow 
 from source code.
 
