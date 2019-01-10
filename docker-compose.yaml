@@ -1,0 +1,8 @@
+version: '2.3'
+services:
+  nvidia:
+    build: .
+    image: nvidia/my-tensorflow-gpu
+    runtime: nvidia
+    command: bash
+
