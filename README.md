@@ -35,7 +35,12 @@ That download build libraries, checkout TF sources from git, and build them.
 The build process on the Dockerfile will be faild. But you don't need to 
 worry about it.
 
-6. Enter the docer machine and run build comand manually. And package it.
+I know this is agry workaround to call bazel build twice. But it works and
+our goal is not to write a perfect Dockerfile. Our goal is to make the 
+tensorflow_gpu package that supports CUDA10 and be optimized ... and 
+make a lot of money by useing it (:-p.
+
+6. Enter the docer machine and run build command manually. And package it.
 
 ~~~
 $ docker-compose run nivid /bin/bash
